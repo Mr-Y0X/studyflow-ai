@@ -65,3 +65,10 @@ To take this MVP to production, consider implementing:
 1. **Real Database Integration:** Connect a database like Supabase or PostgreSQL (via Prisma) to persist user data, subjects, notes, and study session history.
 2. **Real Authentication:** Implement NextAuth.js, Clerk, or Supabase Auth.
 3. **Advanced AI Integrations:** Add support for file uploads (PDF parsing) to allow users to summarize entire textbooks.
+
+### Deploying to Vercel
+
+The easiest way to deploy this Next.js app is using [Vercel](https://vercel.com/new).
+1. Import your GitHub repository to Vercel.
+2. In the deployment settings, add your `GEMINI_API_KEY` to the **Environment Variables** section to enable real AI responses while keeping your key secure.
+3. Click **Deploy**.
